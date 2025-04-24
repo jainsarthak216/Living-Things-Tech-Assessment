@@ -1,4 +1,3 @@
-```
 # 📝 Task Management Application
 
 This is a full-stack application that supports:
@@ -29,13 +28,13 @@ project-root/
 - Node.js v14+
 
 #### 🔧 Setup
-```bash
+```
 cd backend1
 npm install
 ```
 
 #### 🔑 Create `.env`
-```env
+```
 JWT_SECRET=super_secret_key
 ```
 
@@ -153,4 +152,3 @@ Authorization: Bearer <token_from_node>
 - [ ] Vue task views (create/edit/delete)
 - [ ] Vue route guards with token
 - [ ] Deploy-ready `.env` configs
-```
