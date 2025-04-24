@@ -45,30 +45,29 @@ export default {
 
 <style scoped>
 .form-container {
-  width: 300px;
+  width: 100%;
+  max-width: 400px; /* Set a max width to control the form width */
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #f9f9f9;
+  box-sizing: border-box; /* Ensure padding doesn't add to width */
 }
 
-input {
-  width: 100%;
+input, button {
+  width: 100%; /* Ensure that all elements fill the container */
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ccc;
   border-radius: 4px;
+  box-sizing: border-box; /* Ensure padding doesn't add to width */
 }
 
 button {
-  width: 100%;
-  padding: 10px;
   background-color: #4CAF50;
   color: white;
-  border: none;
   cursor: pointer;
-  border-radius: 4px;
 }
 
 button:hover {
